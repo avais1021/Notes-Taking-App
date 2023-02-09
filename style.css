@@ -59,6 +59,18 @@
     gap: 15px;
 }
 
+.save{
+    animation: saveanimate 1s linear infinite alternate;
+}
+@keyframes saveanimate {
+    0%{
+        transform: rotate(-40deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+}
+
 .noteBox textarea{
     width: 100%;
     min-height: 155px;

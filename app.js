@@ -28,6 +28,7 @@ const addNote = (text = "") => {
     noteBox.setAttribute("class", "noteBox ");
     noteBox.innerHTML = `
     <div class="tool">
+    <span>Auto save</span>
     <i class=" save fa-solid fa-floppy-disk"></i>
     <i class=" trash fa-solid fa-trash"></i>
     </div>
