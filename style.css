@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.main{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 66px;
+    display: flex;
+    flex-wrap:  wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#add_noteBtn{
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    position: fixed;
+    left: 20px;
+    top: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.noteBox{
+    background: white;
+    width: 300px;
+    min-height: 155px;
+    border-radius: 5px;
+}
+.tool{
+    background: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.noteBox textarea{
+    width: 100%;
+    min-height: 155px;
+    /* background: lavender; */
+    border: none;
+    resize: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px;
+    line-height: 26px;
+}
+.noteBox textarea:focus{
+    outline: none;
+}
